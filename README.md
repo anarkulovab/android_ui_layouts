@@ -1,5 +1,5 @@
 # Android Multi-Screen UI
-Многостраничное верстка по макету из Figma. 
+Многостраничная верстка по макету из Figma. 
 
 ## Скриншоты
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
