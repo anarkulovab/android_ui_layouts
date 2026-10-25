@@ -2,7 +2,6 @@
 Многостраничное верстка по макету из Figma. 
 
 ## Скриншоты
-\
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="screenshots/1_main.png" width="300" alt="1" />
   <img src="screenshots/2_sign_in.png" width="300" alt="2" />
@@ -12,7 +11,6 @@
 
 
 ## Стек
-- Java
 - XML
 
 ## Что реализовано
