@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fon">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout2"
+        android:layout_width="330dp"
+        android:layout_height="675dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginStart="36dp"
+        android:background="@drawable/round_corners2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="149dp"
+            android:layout_height="98dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="71dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/name"
+            android:textColor="@color/blue"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </TextView>
+
+        <ImageView
+            android:layout_width="153dp"
+            android:layout_height="153dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="165dp"
+            android:src="@drawable/sova2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ImageView>
+
+        <TextView
+            android:layout_width="306dp"
+            android:layout_height="347dp"
+            android:layout_marginTop="204dp"
+            android:layout_marginStart="12dp"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:text="@string/story"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </TextView>
+
+        <Button
+            android:layout_width="219dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="586dp"
+            android:text="@string/thanks"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:radius="10dp"
+            android:background="@drawable/button_corners"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:backgroundTint="@color/blue">
+        </Button>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
